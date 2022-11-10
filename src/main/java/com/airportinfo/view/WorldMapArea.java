@@ -1,4 +1,4 @@
-package t;
+package com.airportinfo.view;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
@@ -15,6 +15,9 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
+
+import com.airportinfo.Airport;
+import com.airportinfo.utils.DBManager;
 
 import javax.imageio.ImageIO;
 
