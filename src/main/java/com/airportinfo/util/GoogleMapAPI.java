@@ -54,7 +54,7 @@ public class GoogleMapAPI {
 		mapSizeX=num;
 		mapSizeY=num;
 	}
-	public void setSize (int num, int num2) {
+	public void setSizeA (int num, int num2) {
 		mapSizeX=num;
 		mapSizeY=num2;
 	}

@@ -22,7 +22,7 @@ public class GoogleMapView extends JFrame {
 	
 	private JTextField textField = new JTextField(30);
 	private JPanel panel = new JPanel();
-	private JButton button = new JButton("검색");
+	private JButton button = new JButton("Search");
 	
 	private GoogleMapAPI googleAPI = new GoogleMapAPI();
 	private JLabel googleMap = new JLabel();
@@ -90,7 +90,7 @@ public class GoogleMapView extends JFrame {
 		googleAPI.setSize(num);
 	}
 	public void setSize(int num, int num2) {
-		googleAPI.setSize(num, num2);
+		googleAPI.setSizeA(num, num2);
 	}
 	public void setZoom(int num) {
 		googleAPI.setZoom(num);
